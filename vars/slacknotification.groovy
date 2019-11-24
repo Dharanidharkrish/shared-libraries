@@ -1,4 +1,4 @@
 def call(body)
 {
-slackSend channel: '#devopsassesment', color: '#fced0f', failOnError: true, message: 'Build Started', teamDomain: 'Jarvis', username: 'Dharanidhar'
+slackSend channel: '#devopsassesment', color: '#fced0f', failOnError: false, message: 'Build Started', teamDomain: 'Jarvis', username: 'Dharanidhar'
 }
